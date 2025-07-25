@@ -1,12 +1,6 @@
 name: Run Action from Another Repo
 
 on:
-  push:
-    branches:
-      - main  # mainブランチにpushされたときにトリガーされます
-  pull_request:
-    branches:
-      - main  # PRがmainに対して作成されたときにトリガーされます
   workflow_dispatch:
 
 jobs:
